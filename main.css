@@ -13,12 +13,12 @@ html {
   background-size: cover;
   color: white;
   text-align: center;
-  padding-top: 18.5%;
-  padding-bottom: 18.5%;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 120px;
 	margin: 0;
 	line-height: 1.5;
 	font-family: 'Great Vibes', cursive;
