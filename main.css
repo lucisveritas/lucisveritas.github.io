@@ -29,10 +29,6 @@ h1 {
   font-size:20px;
 }
 
-.tracking-in-expand {
-	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
-}
-
 .main {
   padding: 0 20px;
 }
@@ -101,7 +97,11 @@ body, html {
     text-align: center;
 }
 
-@-webkit-keyframes tracking-in-expand {
+.tracking-in-expand {
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
+
+@keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
@@ -113,7 +113,13 @@ body, html {
     opacity: 1;
   }
 }
-@keyframes tracking-in-expand {
+
+.line-tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+}
+
+@keyframes line-tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
