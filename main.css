@@ -135,8 +135,7 @@ body, html {
 }
 
 .scale-up-ver-top {
-	-webkit-animation: scale-up-ver-top 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
-	        animation: scale-up-ver-top 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+	        animation: scale-up-ver-top 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
 }
 
 @keyframes scale-up-ver-top {
