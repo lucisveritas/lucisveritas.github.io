@@ -117,6 +117,9 @@ body, html {
 .line-tracking-in-expand {
 	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
 	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+	font-weight: 900;
+	font-size: 100px;
+	margin-top: -85px;
 }
 
 @keyframes line-tracking-in-expand {
