@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat&display=swap');
   
-* { box-sizing: border-box; }
-
-html {
+* { 
+	box-sizing: border-box; 
+	height: 100%;
+	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-}
 
 .header {
   background-image: url(headerblue2.jpg);
@@ -83,11 +83,6 @@ footer {
 footer > a {
   color: black;
   margin: 0px 20px;
-}
-
-body, html {
-    height: 100%;
-    text-align: center;
 }
 
 .tracking-in-expand {
