@@ -123,7 +123,8 @@ footer > a {
 }
 
 .scale-up-ver-top {
-	        animation: scale-up-ver-top 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
+        animation: scale-up-ver-top 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
+	font-size: 3em;
 }
 
 @keyframes scale-up-ver-top {
