@@ -46,6 +46,8 @@ h1 {
   width: 295px;
   display: inline-block;
   margin: 0 15px 50px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
   .collection > h3 {
