@@ -367,10 +367,17 @@ p {
   .content-block .person-img {
     height: 150px;
     width: 150px;
-    background: url(../img/candidate.png);
     border-radius: 50%;
+    overflow: hidden;
+  }
+  .content-block .person-img .person-img2 {
+    background: url(../../profilepic2.jpg);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover; 
+    height: 400%;
+    margin-left: -634px;
+    margin-top: -50px;
+  }
 
 /********Header Sec CSS********/
 .btn {
